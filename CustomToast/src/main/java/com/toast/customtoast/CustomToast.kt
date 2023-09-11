@@ -26,5 +26,6 @@ object CustomToast {
 }
 
 enum class ToastType(val iconResId: Int) {
+
     SUCCESS(R.drawable.ic_success), ERROR(R.drawable.ic_error), INFO(R.drawable.ic_info), WARNING(R.drawable.ic_warning)
 }
